@@ -1,0 +1,17 @@
+[project]
+name = "term-greeter"
+version = "0.1.0"
+description = "Show greetings when you opened new terminal"
+authors = [
+    {name = "Farhan Kurnia Pratama",email = "farhnkrnapratma@gmail.com"}
+]
+license = {text = "GPL-3-or-later"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
